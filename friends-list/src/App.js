@@ -15,14 +15,12 @@ export default class App extends Component {
     this.setState({
       picture: val,
     });
-    console.log(this.state);
   };
 
   updateName = (val) => {
     this.setState({
       name: val,
     });
-    console.log(this.state);
   };
 
   addFriend = () => {
